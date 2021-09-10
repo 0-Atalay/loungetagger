@@ -27,19 +27,19 @@ async def cancel(event):
 async def start(event):
   await event.reply("**Tctimtagger Bot**, Grup veya kanaldaki neredeyse tüm üyelerden bahsedebilirim ★\nDaha fazla bilgi için **/help**'i tıklayın.",
                     buttons=(
-                      [Button.url('🌟 Beni Bir Gruba Ekle', 'https://t.me/tctimtaggerbot?startgroup=a'),
-                      Button.url('📣 Support', 'https://t.me/Tctimbotsupport'),
+                      [Button.url('🌟 Beni Bir Gruba Ekle', 'https://t.me/SohbetSalonuTaggerRobot?startgroup=a'),
+                      Button.url('📣 Ana Grubum', 'https://t.me/sohbetsalonu'),
                       Button.url('🚀 Sahibim', 'https://t.me/Thepurchle')]
                     ),
                     link_preview=False
                    )
 @client.on(events.NewMessage(pattern="^/help$"))
 async def help(event):
-  helptext = "**Tctimtagger bot'un Yardım Menüsü**\n\nKomut: /all \n  Bu komutu, başkalarına bahsetmek istediğiniz metinle birlikte kullanabilirsiniz. \n`Örnek: /all Günaydın!`  \nBu komutu yanıt olarak kullanabilirsiniz. herhangi bir mesaj Bot, yanıtlanan iletiye kullanıcıları etiketleyecek"
+  helptext = "**Sohbet Salonu Tagger bot'un Yardım Menüsü**\n\nKomut: /all \n  Bu komutu, başkalarına bahsetmek istediğiniz metinle birlikte kullanabilirsiniz. \n`Örnek: /all Günaydın!`  \nBu komutu yanıt olarak kullanabilirsiniz. herhangi bir mesaj Bot, yanıtlanan iletiye kullanıcıları etiketleyecek"
   await event.reply(helptext,
                     buttons=(
-                      [Button.url('🌟 Beni Bir Gruba Ekle', 'https://t.me/tctimtaggerbot?startgroup=a'),
-                       Button.url('📣 Support', 'https://t.me/Tctimbotsupport'),
+                      [Button.url('🌟 Beni Bir Gruba Ekle', 'https://t.me/SohbetSalonuTaggerRobot?startgroup=a'),
+                       Button.url('📣 Ana Grubum', 'https://t.me/SohbetSalonu'),
                       Button.url('🚀 Sahibim', 'https://t.me/Thepurchle')]
                     ),
                     link_preview=False
