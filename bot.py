@@ -29,7 +29,7 @@ async def start(event):
                     buttons=(
                       [Button.url('🌟 Beni Bir Gruba Ekle', 'https://t.me/SohbetSalonuTaggerRobot?startgroup=a'),
                       Button.url('📣 Ana Grubum', 'https://t.me/sohbetsalonu'),
-                      Button.url('🚀 Sahibim', 'https://t.me/Thepurchle')]
+                      Button.url('🚀 Sahibim', 'https://t.me/Purchleninsiqi')]
                     ),
                     link_preview=False
                    )
@@ -40,7 +40,7 @@ async def help(event):
                     buttons=(
                       [Button.url('🌟 Beni Bir Gruba Ekle', 'https://t.me/SohbetSalonuTaggerRobot?startgroup=a'),
                        Button.url('📣 Ana Grubum', 'https://t.me/SohbetSalonu'),
-                      Button.url('🚀 Sahibim', 'https://t.me/Thepurchle')]
+                      Button.url('🚀 Sahibim', 'https://t.me/Purchleninsiqi')]
                     ),
                     link_preview=False
                    )
